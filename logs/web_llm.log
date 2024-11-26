@@ -1,0 +1,48 @@
+2024-11-26 10:01:41,234 - ERROR - Error initializing system: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 151, in initialize_system
+    test_response = llm_wrapper.generate("Test", max_tokens=10)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 33, in generate
+    return self._ollama_generate(prompt, **kwargs)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 52, in _ollama_generate
+    raise Exception(f"Ollama API request failed with status {response.status_code}: {response.text}")
+Exception: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 155, in initialize_system
+    raise ConnectionError(f"LLM test failed: {str(e)}")
+ConnectionError: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+2024-11-26 10:03:42,079 - ERROR - Error initializing system: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 151, in initialize_system
+    test_response = llm_wrapper.generate("Test", max_tokens=10)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 33, in generate
+    return self._ollama_generate(prompt, **kwargs)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 52, in _ollama_generate
+    raise Exception(f"Ollama API request failed with status {response.status_code}: {response.text}")
+Exception: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 155, in initialize_system
+    raise ConnectionError(f"LLM test failed: {str(e)}")
+ConnectionError: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+2024-11-26 10:03:56,749 - ERROR - Error initializing system: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 151, in initialize_system
+    test_response = llm_wrapper.generate("Test", max_tokens=10)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 33, in generate
+    return self._ollama_generate(prompt, **kwargs)
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\llm_wrapper.py", line 52, in _ollama_generate
+    raise Exception(f"Ollama API request failed with status {response.status_code}: {response.text}")
+Exception: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\adamd\OneDrive\Documents\Misc Projects\AI Researcher\Automated-AI-Web-Researcher-Ollama\Web-LLM.py", line 155, in initialize_system
+    raise ConnectionError(f"LLM test failed: {str(e)}")
+ConnectionError: LLM test failed: Ollama API request failed with status 404: {"error":"model 'custom-phi3-32k-Q4_K_M' not found"}
